@@ -42,7 +42,6 @@ getInstruction("mashedPotatoes", 0, (step1) => {
                 document.querySelector("#mashedPotatoesImg").removeAttribute("hidden");     
                 document.querySelector("#mashedPotatoes").innerHTML += '<li>Mashed potatoes are ready!</li>';              
           }, (error) => console.log(error))
-        }, (error) => console.log(error))
       }, (error) => console.log(error))
     }, (error) => console.log(error))
   }, (error) => console.log(error))
